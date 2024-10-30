@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy Exam</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/all.min.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+</head>
+<body>
+  <div class="loading-screen position-fixed top-0  bottom-0 start-0 end-0 bg-black justify-content-center align-items-center">
+    <i class="fa fa-spinner fa-spin fa-5x text-white"></i>
+  </div>
+    
+    <div class="nav-menu position-fixed min-vh-100 top-0">
+        <div class="nav-tabs d-flex flex-column justify-content-between bg-black min-vh-100 p-4">
+            <div class="links">
+                <ul class="text-white list-unstyled">
+                    <li id="search" >Search</li>
+                    <li id="categories">Categories</li>
+                    <li id="area">Area</li>
+                    <li id="ingredients">Ingredients</li>
+                    <li id="contactUs">Contact us</li>
+                </ul>
+            </div>
+<div class="nav-footer">
+    <div class="icons text-white">
+        <i class="fa-brands fa-facebook me-2"></i>
+        <i class="fa-brands fa-twitter me-2"></i>
+        <i class="fa-solid fa-globe"></i>
+    </div>
+    <div class="nav-text text-white">
+        Copyright Â© 2019 All Rights<br> Reserved.
+
+    </div>
+</div>
+        </div>
+<div class="nav-header position-absolute bg-white d-flex flex-column justify-content-between py-5 px-2 text-center min-vh-100 text-black ">
+    <img src="images/logo.png" />
+    <i class="fa-solid fa-align-justify open display-6"></i>
+    <i class="fa-solid fa-x close display-6 d-none"></i>
+    <div class="header-icon d-flex flex-column ">
+        <i class="fa-solid fa-globe my-2"></i>
+        <i class="fa-solid fa-share-nodes"></i>   
+    </div>
+
+</div>
+    </div>
+
+<div class="main-meal min-vh-100 position-relative">  
+    <div class="inner-loading-screen top-0 bottom-0 start-0 end-0 bg-black justify-content-center align-items-center">
+        <i class="fa fa-spinner fa-spin fa-5x text-white"></i>
+    </div> 
+    <div class="container w-75 pt-4" id ="searchPlace"></div>
+    <div class="container " >
+        <div class="row py-5 g-4 text-light" id="rowData">
+          
+        </div>
+        
+    </div>
+    
+</div>
+
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
